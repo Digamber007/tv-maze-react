@@ -1,4 +1,90 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Tangerine&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-color: #161830 !important;
+}
+
+.logo {
+  text-align: left;
+  align-items: center;
+  margin-left: 10px;
+  padding-bottom: 20px;
+  font-family: "Tangerine", serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+.navbar {
+  margin: 0px;
+  color: #2e315c;
+  text-align: center;
+  padding: 10px;
+  background: #d2d5f3;
+}
+
+.header {
+  font-family: "Anton", sans-serif;
+  color: #484d8a;
+  font-size: 25px;
+
+}
+
+.col-md-7 {
+  color: #fff;
+  text-align: center;
+  padding-top: 15px;
+
+  align-items: center;
+}
+
+strong {
+  padding: 5px;
+}
+
+.card {
+  background: gray;
+}
+.card-body {
+  text-align: center;
+}
+
+.poster {
+  text-align: center;
+  padding: 15px;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+img {
+  border-radius: 0.5rem;
+  padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +121,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
